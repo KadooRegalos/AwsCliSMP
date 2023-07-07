@@ -1,0 +1,6 @@
+name: aws-cli-with-smp
+description: "This action provides aws cli with the session manager plugin installed."
+author: 'Sergio Tomas'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
